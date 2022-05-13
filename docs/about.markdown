@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Long time SAS programmer just getting his feet wet in R and Python. Also, loves complex SQL Queries, knows a little bit of Java, as well as lots of experience building and maintaining websites.Currently works for the Alaska Department of Corrections as a Research Analyst. [Monthly Populations Statistics for Alaska Prisons.](https://doc.alaska.gov/administrative-services/research-records/population-statistics)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Lives in Juneau, AK, loves to spend time outside and with my family! 
