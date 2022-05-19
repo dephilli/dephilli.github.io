@@ -32,7 +32,7 @@ cities_no_ball<-big_cities[!big_cities$metro %in% mlb_teams$metro,]
 
 I'm subsetting the big_cities dataframe to return all the cities that don't match the metros in the mlb_teams file. Simple as that, I find seven results. Most are expected but I can also see that my data might have some issues. My largest MSA without a team, Riverside-San Bernardino-Ontario, CA MSA, isn't one I'm very interested in. This MSA is right next door to the Los Angeles-Long Beach-Anaheim, CA MSA where two teams exist! 
 
-![Big cities without](/assets/images/major_ball.png)
+![Big cities without](/assets/images/major_ball.PNG)
 
 Also, I can reverse this and see which baseball clubs aren't in the top 30 MSA. 
 
@@ -42,7 +42,7 @@ small_ball<-mlb_teams[!mlb_teams$metro %in% big_cities$metro,]
 
 I get five results. Some are expected, but I also see one potential issues. I have one team outside of the United States, the Toronto Blue Jays! My unmatched query helped to highlight these types of data issues. 
 
-![small ball](/assets/images/small_ball.png)
+![small ball](/assets/images/small_ball.PNG)
 
 ## Tidyverse Way
 
