@@ -2,7 +2,7 @@
 layout: post
 title:  "Unmatched Query in R"
 date:   2022-05-19 06:44:00 -0800
-categories: r and sql
+categories: r, sql, tidyverse
 ---
 
 ## The SQL Way
