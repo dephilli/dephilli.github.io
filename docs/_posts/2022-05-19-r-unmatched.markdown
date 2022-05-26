@@ -40,7 +40,7 @@ Also, I can reverse this and see which baseball clubs aren't in the top 30 MSA.
 small_ball<-mlb_teams[!mlb_teams$metro %in% big_cities$metro,]
 {% endhighlight %}
 
-I get five results. Some are expected, but I also see one potential issues. I have one team outside of the United States, the Toronto Blue Jays! My unmatched query helped to highlight these types of data issues. 
+I get five results. Some are expected, but I also see one potential issues. I have one team outside of the United States, the Toronto Blue Jays! My unmatched query helped to highlight this data issue. 
 
 ![small ball](/assets/images/small_ball.PNG)
 
