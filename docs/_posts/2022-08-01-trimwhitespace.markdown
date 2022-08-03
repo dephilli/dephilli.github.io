@@ -30,11 +30,9 @@ This will take each preselected column, and trim all the whitespace. Great appro
 
 {% highlight r%}
 trim_all_ws <- function(dframe) {
-  names <- names(dframe[sapply(dframe, is.character)])
-  cols_to_trim <- names(dframe)
+  cols_to_trim <- names(loc_hist[sapply(loc_hist, is.character)])
   dframe[cols_to_trim] <- lapply(dframe[cols_to_trim], trimws)
-  return(dframe)
-}
+  return(dframe)}
 {% endhighlight %}
 
 This simple function takes the dataframe, and creates a new temporary dataframe called names, which includes only the character columns. Then it creates a value vector of the names of the character columns, runs the same lapply as above and removes all whitespace from all character columns. 
