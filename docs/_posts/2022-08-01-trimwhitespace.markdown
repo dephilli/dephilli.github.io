@@ -30,7 +30,7 @@ This will take each preselected column, and trim all the whitespace. Great appro
 
 {% highlight r%}
 trim_all_ws <- function(dframe) {
-  cols_to_trim <- names(loc_hist[sapply(loc_hist, is.character)])
+  cols_to_trim <- names(loc_hist[sapply(dframe, is.character)])
   dframe[cols_to_trim] <- lapply(dframe[cols_to_trim], trimws)
   return(dframe)}
 {% endhighlight %}
